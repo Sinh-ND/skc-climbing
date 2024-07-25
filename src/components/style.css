@@ -1,0 +1,138 @@
+/* -----------------------------CSS CHUNG--------------------------------  */
+
+figcaption {
+    text-align: center;
+}
+
+
+.container .title {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+
+}
+
+.container .img-page {
+    display: block;
+    margin: auto;
+    width: 70vw;
+    height: 40vw;
+    border-radius: 8px;
+}
+
+
+
+.container-techniques h1 {
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+
+}
+/* -----------------css-types-climb--------------------------- */
+.types-climb1{
+    text-align: center;
+}
+.types-climb{
+    border-radius: 5px;
+    width: 70vw;
+    height: 40vw;
+}
+
+/* ------------------------------- */
+.homelink66{
+    width: 70vw;
+    height: 40vw;
+}
+.homelink99{
+    border: solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: beige;
+}
+/* -----------------css develop--------------------------- */
+.deve-lop1{
+    border-radius: 10px;
+    /* border: solid gray; */
+    /* background-color:black; */
+    margin-top: 1%;
+    /* color: beige; */
+   }
+.deve-lop2{
+    border-radius: 10px;
+    background-color:whitesmoke;
+    border: solid  whitesmoke;
+    padding: 1%;
+}
+.deve-lop3{
+    border-radius: 10px;
+    background-color:whitesmoke;
+    border: solid  whitesmoke;
+    padding: 5px;
+   
+}
+.deve-lop4{
+    border-radius: 10px;
+    background-color:darkslategray;
+    border: solid  whitesmoke;
+    padding: 1%;
+    color: beige;
+}
+.images-deve1{
+    width: 100%;
+    border-radius: 10px;
+    height: 40vmin;
+}
+.images-develop-p{
+    width: 70vw;
+    height: 40vw;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.no-underline {
+  text-decoration: none; /* Bỏ gạch chân cho liên kết */
+  color: inherit; /* Giữ màu chữ mặc định */
+}
+
+
+/* ----------------------css organiations------------------- */
+.Organi-1{
+    background-color: whitesmoke;
+    border: solid bisque;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+/* -----------------------------css types------------------------------------ */
+.types-1{
+    border-radius: 10px;
+    /* border: solid gray; */
+    /* background-color:darkslategray; */
+    margin-top: 1%;
+    /* color:darkgrey; */
+}
+.images-types{
+    border-radius: 10px;
+}
+.types-t{
+    background-color: whitesmoke;
+    /* border: solid bisque; */
+    border-radius: 5px;
+    padding: 2%;
+    
+}
+
+
+/* ---------------------------------contact------------------------ */
+.map-contact{
+    height: 80vmin;
+    border-radius: 5px;
+}
+.map-contact1{
+    border-radius: 10px;
+}
+
+
+
+
+
+

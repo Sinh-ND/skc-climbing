@@ -1,0 +1,212 @@
+/* Home.css */
+
+
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-inner img {
+  width: 100vmin;
+  height: 65vmin;
+  border-radius: 5px;
+}
+
+.carousel-item {
+  transition: transform 0.1s ease-in-out !important;
+}
+
+/* ---------------------- */
+hr {
+  border: solid orange;
+  width: 100%;
+}
+
+.he6 {
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+
+
+/* -----------nội dung-------------------- */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-item {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.home-h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.texthome {
+  line-height: 1.6;
+  margin: 5%;
+}
+
+.home-eh5 {
+  background-color: darkslategrey;
+  padding: 1%;
+  border-radius: 3px;
+  color: beige;
+}
+
+.home-eh6 {
+  background-color: darkslategrey;
+  border-radius: 3px;
+  margin-top: 0px;
+  color: beige;
+  padding: 1%;
+}
+
+.home-h5 {
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.home-v {
+  border: solid orange;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: darkslategrey;
+  min-height: 5%;
+  color: beige;
+
+}
+
+.home-vi {
+  background-color: whitesmoke;
+  /* border: solid darkslategrey; */
+  border-radius: 5px;
+  margin-bottom: 1%;
+  margin-left: 2%;
+
+}
+
+
+
+
+.images-hom1 {
+  width: 100%;
+  border-radius: 10px;
+  height: 43vmin;
+
+}
+
+.images-hom2 {
+  width: 100%;
+  border-radius: 10px;
+  height: 25vmin;
+}
+
+.no-underline {
+  text-decoration: none;
+  /* Bỏ gạch chân cho liên kết */
+  color: inherit;
+  /* Giữ màu chữ mặc định */
+}
+
+.hom-e {
+  text-align: center;
+  padding: 2%;
+}
+
+
+.add11 {
+  border-radius: 10px;
+  /* border: solid gray; */
+  background-color: black;
+  margin-top: 2%;
+  color: beige;
+
+}
+
+.add1-video {
+  background-color: black;
+  margin-top: 1%;
+  color: beige;
+ 
+  
+}
+.homeadd-video{
+  height: 44vmin;
+ 
+}
+.partner-img {
+  width: 20%;
+  height: 20%;
+  max-width: 150px;
+  /* Đặt kích thước tối đa cho ảnh nếu cần */
+  margin: 20px;
+  /* Thêm khoảng cách giữa các ảnh */
+
+}
+
+/* -------------css like------------------- */
+.btn-like,
+.btn-dislike {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+
+}
+
+.btn-like:hover,
+.btn-dislike:hover {
+  color: #ccc;
+}
+/* --------------------css our partnes-------------- */
+.home-eh7 {
+  background-color: darkslategrey;
+  /* border-radius: 30px; */
+  margin-top: 0px;
+  color: beige;
+  padding:5px 0;
+  margin: 1% 0;
+  
+}
+
+/* --------------------css our team-------------- */
+.our-team {
+
+  background-color: whitesmoke;
+  /* border: solid darkslategrey; */
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+
+
+.ourteam img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.home-h6 {
+  text-align: left;
+  margin-left: 25%;
+  font-size: 0.8rem;
+
+}
+
+/* -----------css pic------------------------ */
+
+.images-pic121 {
+  width: 100%;
+  border-radius: 10px;
+  height: 40vmin;
+}

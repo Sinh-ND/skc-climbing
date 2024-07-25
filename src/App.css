@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-logo {
+ 
+  height: 10vmin;
+  pointer-events: none;
+  max-height: 100px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Chiều rộng bằng viewport */
+  z-index: 1000; /* Đảm bảo header nằm trên các phần tử khác. Dùng để cố định header + position:fixed*/
+  background-color: #333;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  max-width: 100%;
+  flex: 1;
+ 
+}
+
+.navbar-nav {
+  gap: 15px;/* Khoảng cách giữa các phần tử con là 15px */
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.1rem; /* Increased font size */
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+/* ----------------------------------------------------------------- */
+section{
+  width: 100vw;
+  padding-top: 8%;
+}
+
+
+/* ---------------------------------------------------------------------- */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 30%;
+  padding: 10px;
+}
+
+.footer-section h2 {
+  color: #ffc107;
+  font-size: 1.2rem;
+}
+
+.footer-section hr {
+  display: flex;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+  list-style-type: none; /* loại bỏ dấu chấm của danh sách */
+  padding: 0; /* loại bỏ padding mặc định của danh sách */
+  width: 100%;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #ffc107;
+}
+
+.footer-h6 {
+  color: white;
+}
+
+.time-marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.time-marquee div {
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-section h2 {
+    font-size: 1.1rem;
+  }
+}
+/* ------------css follow----------------- */
+.follow-1 {
+  display: flex;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+  list-style-type: none; /* loại bỏ dấu chấm của danh sách */
+  padding: 0; /* loại bỏ padding mặc định của danh sách */
+}
+
+.follow-1 li {
+  margin-right: 10px; /* khoảng cách giữa các biểu tượng */
+}
+
+
+
+
+/* -----------------css feedback---------------- */
+/* -----------phần nút------------- */
+.feedback-button {
+  position: fixed;
+  bottom: 20px; 
+  right: 5px;
+  z-index: 1000; /* Đảm bảo nút này hiển thị trên các phần tử khác */
+}
+.zalo-button{
+  position: fixed;
+  bottom: 20px; 
+  left: 5px;
+  z-index: 1000; /* Đảm bảo nút này hiển thị trên các phần tử khác */
+}
+
+/* ---------------phần feedback app.js-------- */
+.feelback-td{
+  /* border: solid orange;
+  background-color: darkslategrey; */
+  color: beige;
+}
+/* -----------phần form----------------- */
+/* -----------phần form----------------- */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input,select,
+textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Để input và textarea căn trái ngang nhau */
+  /* margin:0 5%; */
+}
+
+.submit-button{
+  background-color:  darkslategray;
+  border-radius: 8px;
+  border: solid  darkslategray;
+  padding: 0.5rem 1rem;
+  margin-bottom: 3px;
+
+}
+
+.submit-button:hover{
+  background-color: #0056b3;
+}
+
+.feedback-button {
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  background-color:  black;
+  color: #fff;
+  border: solid;
+  cursor: pointer;
+  margin:3px;
+  border-radius: 49%;
+  
+  
+ 
+}
+
+.feedback-button:hover {
+  background-color: #0056b3;
+}
+.form-feedback{
+  width: 100%;
+  text-align: center;
+  margin:0 auto; 
+  border: solid darkslategray;
+  border-radius: 5px;
+ 
+}
+.form-feedback1{
+  padding-top:5px;
+}
+
+
+/* ------------css topbutton----------------------- */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 80px; 
+  right: 5px;
+  z-index: 1000; /* Đảm bảo nút này hiển thị trên các phần tử khác */
+}
+
+.scroll-to-top-button {
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  background-color:  black;
+  color: #fff;
+  border:solid;
+  cursor: pointer;
+  margin:3px;
+  border-radius: 49%;
+ 
+}
+
+.scroll-to-top-button:hover {
+  background-color: #0056b3;
+}
