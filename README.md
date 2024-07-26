@@ -14,18 +14,15 @@ Project title: Alpine Ascents
 
         Phan Ngo Anh Khoa	Student1559720
          
-        Nguyen Duc Sinh	Student1559709
+        Nguyen Duc Sinh	    Student1559709
 ============================
 
 eProject documentation at https://github.com/Sinh-ND/skc-climbing/blob/main/ground2%20-Alpine%20Ascents/eProject%20Report%20-Alpine%20Ascents.pdf
 
-============================
 link github guide:https://github.com/Sinh-ND/skc-climbing/blob/main/ground2%20-Alpine%20Ascents/github%20guide.pdf
-============================
 
 Link code: https://github.com/Sinh-ND/skc-climbing
 
-============================
 link GitHup page:https://sinh-nd.github.io/skc-climbing/
 ============================
 
