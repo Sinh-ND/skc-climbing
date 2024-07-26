@@ -1,5 +1,4 @@
-eProject1
-T1.2104.E0 - eProject - Group 2
+eProject - Group 2
 Batch no.: T1.2403.E0
 
 CENTER NAME: ACE-HCMC-2-FPT
