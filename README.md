@@ -20,7 +20,7 @@ eProject documentation at https://github.com/Sinh-ND/skc-climbing/blob/main/grou
 
 link github guide:https://github.com/Sinh-ND/skc-climbing/blob/main/ground2%20-Alpine%20Ascents/github%20guide.pdf
 
-Link code: https://github.com/Sinh-ND/skc-climbing
+Link code: https://github.com/Sinh-ND/skc-climbing/tree/main/src
 
 link GitHup page:https://sinh-nd.github.io/skc-climbing/
 ============================
